@@ -39,7 +39,7 @@ body {
 }
 
 .menu-line-1 {
-    top: 10px;
+    top: 20px;
 }
 
 .menu-line-2 {
@@ -47,7 +47,7 @@ body {
 }
 
 .menu-line-3 {
-    bottom: 10px;
+    bottom: 30%;
 }
 
 .menu-item {
@@ -72,11 +72,11 @@ body {
 }
 
 .menu-open:checked + .menu-open-button {
-    transform: rotate(45deg);
+    transform: rotate(90deg);
 }
 
 .menu-open:checked + .menu-open-button .menu-line-1 {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(5px, 9px);
 }
 
 .menu-open:checked + .menu-open-button .menu-line-2 {
@@ -84,7 +84,7 @@ body {
 }
 
 .menu-open:checked + .menu-open-button .menu-line-3 {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(5px, -9px);
 }
 
 .menu-open:checked ~ .menu-item {

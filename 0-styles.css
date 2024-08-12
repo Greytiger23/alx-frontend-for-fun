@@ -28,13 +28,13 @@ li {
 }
 
 .i-html {
-  background-position: 0 0; /* Adjust based on sprite position for HTML */
+  background-position: 0 0;
 }
 
 .i-css {
-  background-position: -24px 0; /* Adjust based on sprite position for CSS */
+  background-position: -24px 0;
 }
 
 .i-js {
-  background-position: -48px 0; /* Adjust based on sprite position for JavaScript */
+  background-position: -48px 0;
 }

@@ -13,7 +13,7 @@ body {
 }
 
 .toggle-cb {
-    display: none; /* Hide the default checkbox */
+    display: none;
 }
 
 .toggle-label {
@@ -49,11 +49,10 @@ body {
     transition: left 0.3s ease;
 }
 
-/* When checked */
 .toggle-cb:checked + .toggle-label .toggle-inner {
-    background-color: #4caf50; /* Change background color when checked */
+    background-color: #ff0000;
 }
 
 .toggle-cb:checked + .toggle-label .toggle-switch {
-    left: 33px; /* Move the switch to the right when checked */
+    left: 33px;
 }
